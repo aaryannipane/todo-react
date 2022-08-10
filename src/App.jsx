@@ -24,8 +24,8 @@ const App = ()=>{
             const items = [...state.items, state.text];
 
             setState({
-                ["items"]: items,
-                ["text"]: ""
+                items: items,
+                text: ""
             })
         }
     }
