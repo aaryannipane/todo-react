@@ -14,7 +14,7 @@ const App = ()=>{
     const handleChange = (e)=>{
         setState({
             ...state,
-            ["text"]: e.target.value,
+            text: e.target.value,
         })
     }
 
@@ -38,7 +38,7 @@ const App = ()=>{
 
         setState({
             ...state,
-            ["items"]: newItems,
+            items: newItems,
         })
     }
 
